@@ -69,6 +69,13 @@ const Quiz = () => {
                 key={option}
                 disabled={showAnswer}
                 onClick={() => handleOptionClick(option)}
+                className={
+                  showAnswer && option === shuffledQuestions[currentQuestion].correctAnswer
+                    ? 'correct'
+                    : showAnswer
+                    ? 'incorrect'
+                    : ''
+                }
               >
                 {option}
               </button>
