@@ -25,9 +25,11 @@ This is a simple quiz application built using React. It allows users to answer m
    git clone https://github.com/mishra06/quiz-application.git
    cd quiz-application
  
- ## ![Question ](src/assets/start.png)
+ ## ![Question ]
+ (src/assets/start.png)
 
- ## ![Result ](src/assets/answer.png)
+ ## ![Result ]
+ (src/assets/answer.png)
 
 # Getting Started with Create React App
 
