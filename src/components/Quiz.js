@@ -61,8 +61,7 @@ const Quiz = () => {
       <div className="quiz">
       {currentQuestion < shuffledQuestions.length ? (
         <div className="question-container">
-          {/* <h1>Quiz App</h1>
-          <h3>Score : {score}</h3> */}
+          <h2>Question {currentQuestion + 1} out of {shuffledQuestions.length}</h2>
           <h2>{shuffledQuestions[currentQuestion].question}</h2>
           <div className="options-container">
             {shuffledQuestions[currentQuestion].options.map(option => (
