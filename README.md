@@ -1,3 +1,31 @@
+# Quiz Application
+
+This is a simple quiz application built using React. It allows users to answer multiple-choice questions, provides instant feedback on correct or incorrect answers, and displays the final score at the end of the quiz.
+
+## Features
+
+- Display multiple-choice questions from a JSON file.
+- Shuffle questions randomly after each game reset.
+- Pause for 2 seconds after selecting an option to show the correct answer.
+- Keep track of the score, incrementing on correct answers.
+- Show a list of incorrect answers with correct solutions at the end of the quiz.
+- Responsive design that adjusts for different screen sizes.
+
+## Technologies Used
+
+- React
+- React Hooks (`useState`, `useEffect`)
+- CSS for styling
+
+## How to Use
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/your-username/quiz-application.git
+   cd quiz-application
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
