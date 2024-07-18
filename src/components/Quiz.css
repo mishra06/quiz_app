@@ -1,0 +1,122 @@
+/* Quiz container */
+.quiz {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Question container */
+  .question-container {
+    margin-bottom: 20px;
+  }
+  
+  .question-container h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .options-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .options-container button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    transition: transform 0.3s ease;
+  }
+  
+  .options-container button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .options-container button:hover {
+    background-color: #da170d;
+    transform: scale(1.1);
+  }
+  
+  .correct-answer {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  /* Results section */
+  .results {
+    text-align: center;
+  }
+  
+  .results p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .results h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .results ul {
+    text-align: left;
+    margin-left: 20px;
+    padding-left: 0;
+  }
+  
+  .results li {
+    margin-bottom: 5px;
+  }
+  
+  .results button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .results button:hover {
+    background-color: #0b7dda;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .quiz {
+      padding: 10px;
+    }
+    
+    .question-container h2 {
+      font-size: 1.3rem;
+    }
+    
+    .options-container button {
+      font-size: 0.9rem;
+      padding: 8px 16px;
+    }
+    
+    .results p,
+    .results h3 {
+      font-size: 1rem;
+    }
+    
+    .results button {
+      padding: 8px 16px;
+      font-size: 0.9rem;
+    }
+  }
+  

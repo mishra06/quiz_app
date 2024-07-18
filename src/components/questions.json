@@ -1,0 +1,43 @@
+[
+    {
+      "question": "What is 2 + 2?",
+      "options": ["4", "5", "3", "6"],
+      "correctAnswer": "4"
+    },
+    {
+      "question": "Who is the president of the USA?",
+      "options": ["Obama", "Trump", "Biden", "Clinton"],
+      "correctAnswer": "Biden"
+    },
+    {
+      "question": "Which planet is known as the Red Planet?",
+      "options": ["Earth", "Mars", "Jupiter", "Saturn"],
+      "correctAnswer": "Mars"
+    },
+    {
+      "question": "What is the capital of France?",
+      "options": ["London", "Berlin", "Paris", "Rome"],
+      "correctAnswer": "Paris"
+    },
+    {
+      "question": "Who painted the Mona Lisa?",
+      "options": ["Leonardo da Vinci", "Vincent van Gogh", "Pablo Picasso", "Michelangelo"],
+      "correctAnswer": "Leonardo da Vinci"
+    },
+    {
+      "question": "What is the tallest mountain in the world?",
+      "options": ["K2", "Kangchenjunga", "Mount Everest", "Makalu"],
+      "correctAnswer": "Mount Everest"
+    },
+    {
+      "question": "Which country is known as the Land of the Rising Sun?",
+      "options": ["China", "Japan", "South Korea", "Vietnam"],
+      "correctAnswer": "Japan"
+    },
+    {
+      "question": "Who wrote the play 'Hamlet'?",
+      "options": ["William Shakespeare", "Charles Dickens", "Jane Austen", "Mark Twain"],
+      "correctAnswer": "William Shakespeare"
+    }
+  ]
+  
