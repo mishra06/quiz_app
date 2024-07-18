@@ -57,7 +57,7 @@ const Quiz = () => {
   return (
     <div className='contii'>
       <h1>Quiz App</h1>
-      <h3>Score : {score}</h3>
+      <h3> Corrent Score : {score}</h3>
       <div className="quiz">
       {currentQuestion < shuffledQuestions.length ? (
         <div className="question-container">
