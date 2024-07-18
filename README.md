@@ -22,7 +22,7 @@ This is a simple quiz application built using React. It allows users to answer m
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/quiz-application.git
+   git clone https://github.com/mishra06/quiz-application.git
    cd quiz-application
 
 
