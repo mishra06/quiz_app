@@ -27,7 +27,7 @@ This is a simple quiz application built using React. It allows users to answer m
  
  ## ![Question ](src/assets/start.png)
 
- ## ![Result ](src/assets/result.png)
+ ## ![Result ](src/assets/answer.png)
 
 # Getting Started with Create React App
 
