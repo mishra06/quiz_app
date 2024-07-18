@@ -1,3 +1,7 @@
 .App {
   text-align: center;
+  background-image: linear-gradient(to top, #ba3694, #6f82a1);
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
 }

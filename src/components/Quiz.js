@@ -11,7 +11,7 @@ const Quiz = () => {
   const [shuffledQuestions, setShuffledQuestions] = useState([]);
 
   useEffect(() => {
-    // Shuffle the questions when the component mounts or when the game resets
+    // ---------------------------Shuffle the questions when the component mounts or when the game resets
     const shuffled = shuffleArray(questions);
     setShuffledQuestions(shuffled);
     setCurrentQuestion(0);
@@ -20,7 +20,7 @@ const Quiz = () => {
     setWrongAnswers([]);
   }, []);
 
-  // Function to shuffle array (Fisher-Yates shuffle algorithm)
+  // -----------------------------Function to shuffle array (Fisher-Yates shuffle algorithm)
   const shuffleArray = (array) => {
     let newArray = [...array];
     let n = newArray.length;
@@ -32,12 +32,12 @@ const Quiz = () => {
   };
 
   const handleOptionClick = (selectedOption) => {
-    // Check if the selected option is correct
+    // -----------------------------------------Check if the selected option is correct
     const correctAnswer = shuffledQuestions[currentQuestion].correctAnswer;
     if (selectedOption === correctAnswer) {
       setScore(score + 1);
     } else {
-      // Add to wrong answers list
+      // -------------------------------------------Add to wrong answers list
       setWrongAnswers([...wrongAnswers, {
         question: shuffledQuestions[currentQuestion].question,
         correctAnswer: correctAnswer
@@ -46,18 +46,23 @@ const Quiz = () => {
 
     setShowAnswer(true);
 
-    // Move to the next question after 2 seconds
+    // -----------------------------------------Move to the next question after 2 seconds
     setTimeout(() => {
       setShowAnswer(false);
       setCurrentQuestion(currentQuestion + 1);
     }, 2000);
   };
 
-  // Render the quiz
+ 
   return (
-    <div className="quiz">
+    <div className='contii'>
+      <h1>Quiz App</h1>
+      <h3>Score : {score}</h3>
+      <div className="quiz">
       {currentQuestion < shuffledQuestions.length ? (
         <div className="question-container">
+          {/* <h1>Quiz App</h1>
+          <h3>Score : {score}</h3> */}
           <h2>{shuffledQuestions[currentQuestion].question}</h2>
           <div className="options-container">
             {shuffledQuestions[currentQuestion].options.map(option => (
@@ -92,6 +97,8 @@ const Quiz = () => {
         </div>
       )}
     </div>
+    </div>
+    
   );
 };
 
